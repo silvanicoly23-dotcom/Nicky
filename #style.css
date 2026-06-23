@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: url("agro.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+}
+
+.conteudo{
+    width: 70%;
+    max-width: 800px;
+
+    background-color: rgba(255,255,255,0.85);
+    padding: 30px;
+    border-radius: 15px;
+
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
